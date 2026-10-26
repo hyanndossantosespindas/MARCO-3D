@@ -61,3 +61,8 @@ A fotografia da home foi substituída pela nova imagem enviada e o selo de créd
 - Logo aprovada: `assets/images/logo-marco3d.png` (aplicação circular com transparência externa) e `logo-marco3d-original.png` (arte integral).
 - Favicon atualizado para a logo aprovada.
 - CSS ajustado apenas no enquadramento da nova foto da home. A seção Sobre permanece inalterada.
+
+
+## Atualização da logo
+- Logo atualizada com base na rosa dos ventos do Marco Zero e na Torre de Cristal.
+- Fundo azul removido; permanece apenas a rosa dos ventos com a torre central em estilo claro/ivory.
