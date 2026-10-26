@@ -1,13 +1,5 @@
-# Sistema operacional
 .DS_Store
 Thumbs.db
-
-# Editor
 .vscode/
-.idea/
-
-# Dependências e arquivos gerados
 node_modules/
 dist/
-build/
-*.log

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="96" viewBox="0 0 320 96">
+<rect width="320" height="96" fill="#f9e8c9"/>
+<rect width="80" height="96" fill="#f6b73e"/><path d="M0 0 80 96H0Z" fill="#0a5e98"/><path d="M80 0 0 96V0Z" fill="#ca3436"/><circle cx="40" cy="44" r="21" fill="#07537f"/>
+<rect x="80" width="80" height="96" fill="#eff0d4"/><path d="M80 0 160 0 120 48Z" fill="#0c6596"/><path d="M80 96 160 96 120 48Z" fill="#f4ac26"/><path d="M80 0 120 48 80 96" fill="#17805e"/><path d="M160 0 120 48 160 96" fill="#dc3b3a"/><circle cx="120" cy="48" r="12" fill="#f0e4c6"/>
+<rect x="160" width="80" height="96" fill="#0b7297"/><path d="M160 0 240 96H160Z" fill="#f5b838"/><path d="M240 0 160 96H240Z" fill="#f7eee2"/><circle cx="203" cy="48" r="21" fill="#da3537"/><path d="M180 48q22-42 46 0t-46 0Z" fill="#076451"/>
+<rect x="240" width="80" height="96" fill="#f6bc45"/><path d="M240 0 320 96H240Z" fill="#fff1d7"/><path d="M320 0 240 96H320Z" fill="#167c83"/><path d="M240 0 280 48 320 0" fill="#d94439"/><circle cx="280" cy="47" r="15" fill="#0b426e"/>
+</svg>

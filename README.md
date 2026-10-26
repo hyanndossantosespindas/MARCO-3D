@@ -1,18 +1,12 @@
-# Marco3D — Landing page (revisão do feedback da equipe)
+# Marco3D — Espaços reais, histórias em 3D
 
-A Marco3D nasceu em **Olinda, Pernambuco**, mas atende a projetos de todo o Brasil. Nossa apresentação não limita o serviço ao patrimônio cultural: também contempla **empresas, lojas e empreendimentos**, quando precisarem mostrar espaços, fachadas, ambientes ou estruturas em 3D.
+Landing page com aparência baseada na imagem de referência fornecida pela equipe.
 
-## O que foi alterado após o feedback
+## Abrir o site
+Abra `index.html` no navegador, ou use **Live Server** no VS Code. HTML, CSS, JS e imagens são locais. A fonte usa Google Fonts, com fontes locais de reserva.
 
-1. **Linguagem para diferentes públicos.** A primeira dobra, serviços, processo, Sobre e contato falam de espaços culturais **e** comerciais/empresariais. A localização não aparece como um limite do serviço.
-2. **Pesquisa de campo.** Separada como serviço e presente no processo. Pesquisa histórica entra apenas quando o projeto pede contexto cultural.
-3. **Olinda como origem e portfólio.** A startup nasceu em Olinda; os **dois modelos 3D exibidos no portfólio** são de lá (casarão e galpão), sem afirmar que os próximos projetos ficarão na região.
-4. **Visual mais próximo da origem, sem estereótipos.** Preservadas a composição, a tipografia e a paleta base; acrescentados pequenos toques de cor de fachada, padronagem discreta de azulejos e uma **ilustração autoral e conceitual** de casario no topo, sem reivindicar ser uma construção específica. A ilustração não foi feita a partir de nenhum dos dois projetos reais.
-5. **Texto simples.** O conteúdo público usa “criar modelos 3D”, “gerar modelos 3D” e “apresentação digital”, sem mencionar o termo técnico vetado. A Marco3D não é apresentada como empresa que executa obra ou revitalização.
-
-## Onde alterar
-
-```text
+## Estrutura
+```
 marco3d-site/
 ├── index.html
 ├── src/
@@ -20,35 +14,50 @@ marco3d-site/
 │   └── js/main.js
 ├── assets/images/
 │   ├── favicon.svg
+│   ├── logo-marco3d.svg
+│   ├── hero-ilustracao.jpg
+│   ├── fachadas-olinda-ilustracao.jpg
+│   ├── padrao-geometrico.svg
 │   └── projetos/
-│       ├── projeto-01-casarao/antes.jpg e depois.jpg
-│       └── projeto-02-galpao/antes.jpg e depois.jpg
-├── .gitignore
+│       ├── projeto-01-catedral-da-se/
+│       │   ├── referencia.jpg
+│       │   └── previa-ilustrativa.jpg
+│       └── projeto-02-bica-de-sao-pedro/
+│           ├── referencia.jpg
+│           └── previa-ilustrativa.jpg
 └── README.md
 ```
 
-**HTML**: estrutura e textos; **CSS**: layout e detalhes visuais; **JS**: alternância Referência / Modelo 3D.
-
-## Abrir e testar
-
-Abra esta pasta no VS Code e use **Open with Live Server** no `index.html` (ou abra o HTML diretamente no navegador). As fontes externas necessitam internet.
-
-## Imagens e dados a completar
-
-- A comparação no topo é **apenas ilustrativa**; não representa um projeto real e não indica qualquer reforma ou obra.
-- Os arquivos `antes.jpg` e `depois.jpg` permanecem **imagens de exemplo**, não são projetos verificados; a página continua exibindo placeholders até serem inseridas imagens reais e vinculadas ao HTML.
-- Os contatos continuam fictícios/placeholders. Substitua por dados confirmados antes da publicação.
-- Os nomes “Casarão” e “Galpão” foram mantidos do portfólio anterior; confirme os nomes oficiais se forem outros.
-- Recriações do passado somente com documentos e evidências adequados; sem inventar história ou detalhes dos lugares.
-
-## Referências para a direção visual
-
-- [UNESCO — Centro Histórico de Olinda](https://whc.unesco.org/en/list/189): arquitetura, fachadas e paisagem construídas.
-- [IPHAN — Patrimônio Mundial em Pernambuco](https://www.gov.br/iphan/pt-br/superintendencias/pernambuco/patrimonio-mundial): arquitetura residencial, sobrados e azulejos.
-
-A referência a Olinda informa as escolhas de design desta versão; **não** define o escopo geográfico do serviço.
+## Notas importantes
+- **As fotos reais de referência** da Catedral da Sé de Olinda e da Bica de São Pedro foram fornecidas pela equipe.
+- **Os arquivos `previa-ilustrativa.jpg` são tratamentos gráficos das fotos reais**, para demonstrar a comparação na interface. Não são imagens de modelos 3D reais. Substitua pelos arquivos exportados dos dois modelos 3D quando disponíveis, preservando nomes e caminhos.
+- **As imagens `hero-ilustracao.jpg` e `fachadas-olinda-ilustracao.jpg`** foram recortadas e ajustadas da arte-conceito da landing page fornecida pela equipe, não são fotografias documentais dos locais.
+- Confirme email, Instagram, WhatsApp e links das redes sociais antes de publicar. Os dados exibidos seguem os exemplos do protótipo.
+- A logo é um SVG original inspirado na rosa dos ventos do Marco Zero e nas cores da bandeira de Pernambuco.
+- O HTML possui links de navegação, menu móvel, comparadores acessíveis e diálogos com detalhes dos projetos.
 
 
-## Identidade visual — Olinda (versão nova)
+## Imagens externas em alta resolução
 
-O layout usa uma paleta inspirada nas fachadas históricas (cal, terracota, azul de azulejo e verde), molduras de arco e um padrão geométrico original em `assets/images/padrao-azulejo.svg`. A mudança é visual: o conteúdo, os projetos de Olinda e o código de interação foram mantidos. O padrão é uma criação gráfica da equipe de site, não uma reprodução de um painel histórico específico.
+A imagem da home está dentro do projeto. A imagem da seção Sobre continua carregando do Wikimedia Commons.
+Para visualizá-las com nitidez, abra o site com internet ativa.
+
+
+## Atualização da home — foto colorida de Olinda
+
+A área de texto tem fundo claro opaco e a imagem ocupa somente o painel fotográfico. No celular, as duas áreas são empilhadas.
+
+Foto atual da home: imagem fornecida pelo usuário, incluída em `assets/images/foto-home-olinda.png`. A imagem é local e não precisa de conexão para carregar. Antes de publicar comercialmente, confirme a autoria e a permissão de uso da fotografia.
+
+A seção **Sobre nós** não foi modificada.
+
+
+## Alteração mais recente
+
+A fotografia da home foi substituída pela nova imagem enviada e o selo de crédito sobreposto foi eliminado. A seção Sobre, o restante do layout, os componentes e o JavaScript continuam como estavam.
+
+## Última atualização: home e logo
+- Home: `assets/images/foto-home-hd.jpg`, imagem original fornecida para esta versão (1536 × 2048 pixels), sem ampliação artificial.
+- Logo aprovada: `assets/images/logo-marco3d.png` (aplicação circular com transparência externa) e `logo-marco3d-original.png` (arte integral).
+- Favicon atualizado para a logo aprovada.
+- CSS ajustado apenas no enquadramento da nova foto da home. A seção Sobre permanece inalterada.
