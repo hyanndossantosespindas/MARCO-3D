@@ -47,3 +47,8 @@ Abra esta pasta no VS Code e use **Open with Live Server** no `index.html` (ou a
 - [IPHAN — Patrimônio Mundial em Pernambuco](https://www.gov.br/iphan/pt-br/superintendencias/pernambuco/patrimonio-mundial): arquitetura residencial, sobrados e azulejos.
 
 A referência a Olinda informa as escolhas de design desta versão; **não** define o escopo geográfico do serviço.
+
+
+## Identidade visual — Olinda (versão nova)
+
+O layout usa uma paleta inspirada nas fachadas históricas (cal, terracota, azul de azulejo e verde), molduras de arco e um padrão geométrico original em `assets/images/padrao-azulejo.svg`. A mudança é visual: o conteúdo, os projetos de Olinda e o código de interação foram mantidos. O padrão é uma criação gráfica da equipe de site, não uma reprodução de um painel histórico específico.
