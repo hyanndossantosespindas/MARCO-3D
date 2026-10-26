@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Marco3D — Revitalização de espaços abandonados em 3D | Olinda, PE</title>
-<meta name="description" content="Marco3D: startup de Olinda que usa o Blender para revitalizar, em 3D, espaços abandonados.">
+<title>Marco3D — Modelos 3D para espaços, cultura e negócios</title>
+<meta name="description" content="Da pesquisa de campo à criação de modelos 3D: apresentamos espaços culturais, comerciais e empresariais. Nascemos em Olinda (PE) e atendemos projetos de todo o Brasil.">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=DM+Sans:wght@400;500;700&family=JetBrains+Mono:wght@500&display=swap">
 <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="src/css/style.css">
@@ -32,9 +32,9 @@
 
       <div id="topo" class="hero-layout">
         <div class="hero-copy">
-          <div class="eyebrow">Estúdio de revitalização 3D · Olinda, PE</div>
-          <h1 class="hero-title">Espaços abandonados, <span class="accent-text">de volta à vida.</span></h1>
-          <p class="hero-description">A Marco3D imagina, modela e renderiza no Blender a nova cara de lugares que o tempo deixou para trás — para que a transformação possa ser vista antes mesmo de existir.</p>
+          <div class="eyebrow">De Olinda para o Brasil · Modelos 3D</div>
+          <h1 class="hero-title">Cada espaço tem algo a mostrar. <span class="accent-text">A gente mostra em 3D.</span></h1>
+          <p class="hero-description">Criamos modelos 3D para mostrar construções e ambientes de um jeito claro, visual e cheio de detalhes. De lugares culturais a lojas e espaços empresariais, transformamos registros do mundo real em apresentações digitais.</p>
           <div class="hero-actions">
             <a href="#projetos" class="button-primary">Ver projetos</a>
             <a href="#contato" class="button-secondary">Falar com a gente</a>
@@ -43,67 +43,96 @@
 
         <div class="preview-card">
           <div class="preview-header">
-            <div class="preview-label">Viewport · casarão</div>
+            <div class="preview-label">Estudo visual · casario</div>
             <div class="preview-switch">
-              <button type="button" id="btn-antes" aria-pressed="false" class="preview-toggle-before">Antes</button>
-              <button type="button" id="btn-depois" aria-pressed="true" class="preview-toggle-after">Depois</button>
+              <button type="button" id="btn-antes" aria-pressed="false" class="preview-toggle-before">Referência</button>
+              <button type="button" id="btn-depois" aria-pressed="true" class="preview-toggle-after">Modelo 3D</button>
             </div>
           </div>
 
           <div class="preview-stage">
             <div id="vista-antes" hidden>
-              <svg viewBox="0 0 520 400" width="100%" role="img" aria-label="Casarão abandonado: telhado furado, janelas tapadas e rachaduras na parede" class="preview-svg">
-                <rect width="520" height="400" fill="#1B2220"/>
-                <rect y="370" width="520" height="30" fill="#121816"/>
-                <rect x="80" y="140" width="360" height="230" fill="#4B524D"/>
-                <rect x="80" y="300" width="360" height="70" fill="#3E4540"/>
-                <polygon points="60,140 260,70 460,140" fill="#2E3430"/>
-                <polygon points="300,100 342,118 324,140 290,128" fill="#1B2220"/>
-                <rect x="120" y="170" width="60" height="70" fill="#0C100E"/>
-                <rect x="230" y="170" width="60" height="70" fill="#0C100E"/>
-                <rect x="340" y="170" width="60" height="70" fill="#0C100E"/>
-                <rect x="120" y="280" width="60" height="60" fill="#0C100E"/>
-                <rect x="340" y="280" width="60" height="60" fill="#0C100E"/>
-                <rect x="230" y="270" width="60" height="100" fill="#0C100E"/>
-                <path d="M114 190 L186 220 M114 214 L186 244 M224 196 L296 226 M334 180 L406 208 M114 296 L186 322 M334 300 L406 326 M224 300 L296 332 M224 330 L296 352" stroke="#6B5B45" stroke-width="5" fill="none"/>
-                <polyline points="150,140 158,170 146,200 156,236" stroke="#2A2F2C" stroke-width="3" fill="none"/>
-                <polyline points="412,150 402,196 414,246" stroke="#2A2F2C" stroke-width="3" fill="none"/>
-                <path d="M62 370 L58 344 M68 370 L76 338 M74 370 L88 352 M452 370 L448 350 M458 370 L468 340 M464 370 L478 356" stroke="#5F7F52" stroke-width="3" fill="none"/>
-              </svg>
+              <svg viewBox="0 0 520 400" width="100%" role="img" aria-label="Ilustração autoral de um casario inspirado em fachadas de Olinda, mostrando a referência arquitetônica" class="preview-svg reference-artwork">
+      <rect width="520" height="400" fill="#254943"/>
+      <path d="M0 348L520 335L520 400H0Z" fill="#213833"/>
+      <path d="M14 356Q85 344 140 349T310 346T520 340" stroke="#55716A" fill="none" stroke-width="2"/>
+      <rect x="95" y="139" width="336" height="206" rx="2" fill="#EDE1C7"/>
+      <rect x="95" y="139" width="336" height="14" fill="#F5EAD8"/>
+      <path d="M80 141L260 78L445 141L427 145L260 99L96 146Z" fill="#C86F50"/>
+      <path d="M95 144L260 97L431 144" fill="none" stroke="#A14D37" stroke-width="4"/>
+      <rect x="95" y="317" width="336" height="28" fill="#497F80"/>
+      <path d="M95 321H431M95 333H431" stroke="#E5EEE8" stroke-opacity=".35" stroke-width="2"/>
+      <path d="M108 317V345M128 317V345M148 317V345M168 317V345M188 317V345M208 317V345M228 317V345M248 317V345M268 317V345M288 317V345M308 317V345M328 317V345M348 317V345M368 317V345M388 317V345M408 317V345M428 317V345" stroke="#E5EEE8" stroke-opacity=".28" stroke-width="1"/>
+      <rect x="123" y="178" width="73" height="109" rx="3" fill="#F9F0DA"/>
+      <rect x="135" y="189" width="50" height="85" fill="#477B78"/>
+      <path d="M160 189V274 M135 231H185" stroke="#D1B780" stroke-width="3"/>
+      <rect x="123" y="178" width="73" height="109" rx="3" fill="none" stroke="#C6A983" stroke-width="3"/>
+      <rect x="228" y="178" width="68" height="109" rx="3" fill="#F9F0DA"/>
+      <rect x="239" y="189" width="46" height="85" fill="#477B78"/>
+      <path d="M262 189V274M239 231H285" stroke="#D1B780" stroke-width="3"/>
+      <rect x="228" y="178" width="68" height="109" rx="3" fill="none" stroke="#C6A983" stroke-width="3"/>
+      <rect x="327" y="178" width="73" height="109" rx="3" fill="#F9F0DA"/>
+      <rect x="339" y="189" width="50" height="85" fill="#477B78"/>
+      <path d="M364 189V274M339 231H389" stroke="#D1B780" stroke-width="3"/>
+      <rect x="327" y="178" width="73" height="109" rx="3" fill="none" stroke="#C6A983" stroke-width="3"/>
+      <rect x="143" y="286" width="232" height="8" rx="1" fill="#BA8767"/>
+      <path d="M233 345V294Q233 281 246 281H279Q291 281 291 294V345Z" fill="#744C3A"/>
+      <path d="M262 281V344" stroke="#BA8D66" stroke-width="3"/>
+      <circle cx="272" cy="321" r="3" fill="#E7C789"/>
+      <path d="M53 345V311" stroke="#51755A" stroke-width="8"/>
+      <circle cx="56" cy="294" r="23" fill="#39775E"/>
+      <circle cx="40" cy="309" r="20" fill="#438C6C"/>
+      <circle cx="472" cy="321" r="26" fill="#408264"/>
+      <circle cx="492" cy="305" r="22" fill="#37765C"/>
+      
+      <path d="M92 137L258 83L433 137" fill="none" stroke="#E6DDD0" stroke-opacity=".38" stroke-width="5"/>
+      <path d="M82 358L442 358" stroke="#E6DDD0" stroke-opacity=".35" stroke-width="2"/>
+    </svg>
             </div>
             <div id="vista-depois">
-              <svg viewBox="0 0 520 400" width="100%" role="img" aria-label="O mesmo casarão revitalizado: fachada clara, telhado novo, janelas iluminadas, porta de madeira e árvore" class="preview-svg">
-                <rect width="520" height="400" fill="#2A4A45"/>
-                <circle cx="440" cy="64" r="26" fill="#F6D88A" opacity="0.9"/>
-                <rect y="370" width="520" height="30" fill="#16231F"/>
-                <rect x="80" y="140" width="360" height="230" fill="#E6D9BE"/>
-                <rect x="80" y="300" width="360" height="70" fill="#1E6B52"/>
-                <polygon points="60,140 260,70 460,140" fill="#C65D3B"/>
-                <rect x="120" y="170" width="60" height="70" fill="#F6D88A" stroke="#FFFFFF" stroke-width="4"/>
-                <rect x="230" y="170" width="60" height="70" fill="#F6D88A" stroke="#FFFFFF" stroke-width="4"/>
-                <rect x="340" y="170" width="60" height="70" fill="#F6D88A" stroke="#FFFFFF" stroke-width="4"/>
-                <rect x="120" y="280" width="60" height="60" fill="#F6D88A" stroke="#E6D9BE" stroke-width="4"/>
-                <rect x="340" y="280" width="60" height="60" fill="#F6D88A" stroke="#E6D9BE" stroke-width="4"/>
-                <path d="M150 170 L150 240 M120 205 L180 205 M260 170 L260 240 M230 205 L290 205 M370 170 L370 240 M340 205 L400 205" stroke="#FFFFFF" stroke-width="3" fill="none"/>
-                <rect x="230" y="270" width="60" height="100" fill="#7A3B26"/>
-                <circle cx="278" cy="326" r="4" fill="#F6D88A"/>
-                <rect x="462" y="300" width="10" height="70" fill="#5A3E2B"/>
-                <circle cx="467" cy="290" r="34" fill="#3FA57A"/>
-                <circle cx="444" cy="312" r="24" fill="#2F8A64"/>
-                <rect x="80" y="140" width="360" height="230" fill="none" stroke="#FFFFFF" stroke-opacity="0.45" stroke-dasharray="5 5"/>
-                <polygon points="60,140 260,70 460,140" fill="none" stroke="#FFFFFF" stroke-opacity="0.45" stroke-dasharray="5 5"/>
-                <circle cx="80" cy="140" r="4" fill="#8FE3B8"/>
-                <circle cx="440" cy="140" r="4" fill="#8FE3B8"/>
-                <circle cx="260" cy="70" r="4" fill="#8FE3B8"/>
-                <circle cx="80" cy="370" r="4" fill="#8FE3B8"/>
-                <circle cx="440" cy="370" r="4" fill="#8FE3B8"/>
-              </svg>
+              <svg viewBox="0 0 520 400" width="100%" role="img" aria-label="Ilustração autoral de um casario inspirado em fachadas de Olinda, mostrando a representação digital" class="preview-svg model-artwork">
+      <rect width="520" height="400" fill="#254943"/>
+      <path d="M0 348L520 335L520 400H0Z" fill="#213833"/>
+      <path d="M14 356Q85 344 140 349T310 346T520 340" stroke="#55716A" fill="none" stroke-width="2"/>
+      <rect x="95" y="139" width="336" height="206" rx="2" fill="#EDE1C7"/>
+      <rect x="95" y="139" width="336" height="14" fill="#F5EAD8"/>
+      <path d="M80 141L260 78L445 141L427 145L260 99L96 146Z" fill="#C86F50"/>
+      <path d="M95 144L260 97L431 144" fill="none" stroke="#A14D37" stroke-width="4"/>
+      <rect x="95" y="317" width="336" height="28" fill="#497F80"/>
+      <path d="M95 321H431M95 333H431" stroke="#E5EEE8" stroke-opacity=".35" stroke-width="2"/>
+      <path d="M108 317V345M128 317V345M148 317V345M168 317V345M188 317V345M208 317V345M228 317V345M248 317V345M268 317V345M288 317V345M308 317V345M328 317V345M348 317V345M368 317V345M388 317V345M408 317V345M428 317V345" stroke="#E5EEE8" stroke-opacity=".28" stroke-width="1"/>
+      <rect x="123" y="178" width="73" height="109" rx="3" fill="#F9F0DA"/>
+      <rect x="135" y="189" width="50" height="85" fill="#477B78"/>
+      <path d="M160 189V274 M135 231H185" stroke="#D1B780" stroke-width="3"/>
+      <rect x="123" y="178" width="73" height="109" rx="3" fill="none" stroke="#C6A983" stroke-width="3"/>
+      <rect x="228" y="178" width="68" height="109" rx="3" fill="#F9F0DA"/>
+      <rect x="239" y="189" width="46" height="85" fill="#477B78"/>
+      <path d="M262 189V274M239 231H285" stroke="#D1B780" stroke-width="3"/>
+      <rect x="228" y="178" width="68" height="109" rx="3" fill="none" stroke="#C6A983" stroke-width="3"/>
+      <rect x="327" y="178" width="73" height="109" rx="3" fill="#F9F0DA"/>
+      <rect x="339" y="189" width="50" height="85" fill="#477B78"/>
+      <path d="M364 189V274M339 231H389" stroke="#D1B780" stroke-width="3"/>
+      <rect x="327" y="178" width="73" height="109" rx="3" fill="none" stroke="#C6A983" stroke-width="3"/>
+      <rect x="143" y="286" width="232" height="8" rx="1" fill="#BA8767"/>
+      <path d="M233 345V294Q233 281 246 281H279Q291 281 291 294V345Z" fill="#744C3A"/>
+      <path d="M262 281V344" stroke="#BA8D66" stroke-width="3"/>
+      <circle cx="272" cy="321" r="3" fill="#E7C789"/>
+      <path d="M53 345V311" stroke="#51755A" stroke-width="8"/>
+      <circle cx="56" cy="294" r="23" fill="#39775E"/>
+      <circle cx="40" cy="309" r="20" fill="#438C6C"/>
+      <circle cx="472" cy="321" r="26" fill="#408264"/>
+      <circle cx="492" cy="305" r="22" fill="#37765C"/>
+      
+      <path d="M92 137L258 83L433 137L433 342L92 342Z M119 156L409 156" fill="none" stroke="#B3F0CC" stroke-width="2" stroke-dasharray="5 5" opacity=".75"/>
+      <path d="M92 137L92 342M433 137L433 342M92 342L433 342" fill="none" stroke="#B3F0CC" stroke-width="2" stroke-dasharray="5 5" opacity=".75"/>
+      <g fill="#8FE3B8"><circle cx="92" cy="137" r="4"/><circle cx="258" cy="83" r="4"/><circle cx="433" cy="137" r="4"/><circle cx="92" cy="342" r="4"/><circle cx="433" cy="342" r="4"/></g>
+    </svg>
             </div>
           </div>
 
           <div class="preview-caption">
-            <span>Exemplo ilustrativo</span>
-            <span>Render · Blender</span>
+            <span>Ilustração conceitual · não é um projeto real</span>
+            <span>Fachadas inspiradas em Olinda</span>
           </div>
         </div>
       </div>
@@ -115,24 +144,29 @@
   <div id="servicos" class="section-light">
     <div class="section-content">
       <div class="services-heading-row">
-        <h2 class="services-title">Do abandono ao projeto, em três dimensões.</h2>
-        <p class="services-intro">O Blender é a nossa mesa de trabalho. Nele, o espaço existente vira modelo, e o modelo vira proposta.</p>
+        <h2 class="services-title">Seu espaço, do registro ao modelo 3D.</h2>
+        <p class="services-intro">Pesquisa de campo, criação de modelos 3D e apresentação digital para projetos culturais, comerciais ou empresariais.</p>
       </div>
       <div class="services-cards">
         <div class="service-card">
           <div class="service-number">01</div>
-          <h3 class="service-card-title">Modelagem do espaço</h3>
-          <p class="service-card-description">Reconstruímos o lugar como ele está hoje, em 3D, a partir de fotos, medidas e referências.</p>
+          <h3 class="service-card-title">Pesquisa de campo</h3>
+          <p class="service-card-description">Observamos o lugar e reunimos fotos, medidas e referências para entender a estrutura e o objetivo de cada projeto.</p>
         </div>
         <div class="service-card">
           <div class="service-number">02</div>
-          <h3 class="service-card-title">Proposta de revitalização</h3>
-          <p class="service-card-description">Desenhamos a nova versão do espaço — volumes, materiais, luz, vegetação e uso — guiados pelo estudo cultural do local.</p>
+          <h3 class="service-card-title">Criação de modelos 3D</h3>
+          <p class="service-card-description">Geramos modelos digitais para apresentar volumes, fachadas, ambientes e detalhes de maneira fácil de visualizar.</p>
         </div>
         <div class="service-card">
           <div class="service-number">03</div>
-          <h3 class="service-card-title">Renders e animações</h3>
-          <p class="service-card-description">Imagens e vídeos realistas para apresentar a ideia a moradores, investidores e poder público.</p>
+          <h3 class="service-card-title">Espaços para negócios</h3>
+          <p class="service-card-description">Também atendemos lojas, empresas e empreendimentos que desejam mostrar seus espaços e estruturas no ambiente digital.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-number">04</div>
+          <h3 class="service-card-title">Cultura e memória</h3>
+          <p class="service-card-description">Em projetos culturais, a pesquisa histórica ajuda a apresentar a identidade do lugar e, com referências, como ele era no passado.</p>
         </div>
       </div>
     </div>
@@ -142,8 +176,9 @@
   <div id="projetos" class="section-dark">
     <div class="section-content">
       <div class="portfolio-heading">
-        <div class="eyebrow">Portfólio</div>
-        <h2 class="section-heading">Antes e depois, renderizados no Blender.</h2>
+        <div class="eyebrow">Portfólio · nossos primeiros modelos</div>
+        <h2 class="section-heading">Começamos mostrando espaços de Olinda.</h2>
+        <p class="portfolio-description">Os dois modelos 3D apresentados aqui são de Olinda, Pernambuco. Nossa atuação não se limita à cidade: criamos modelos para projetos em todo o Brasil.</p>
       </div>
 
       <div class="portfolio-grid">
@@ -151,37 +186,37 @@
         <div class="project-card">
           <div class="project-images">
             <div class="project-before">
-              <span class="project-before-label">ANTES</span>
+              <span class="project-before-label">REFERÊNCIA</span>
               <span class="project-placeholder">[adicionar foto]</span>
             </div>
             <div class="project-after">
-              <span class="project-after-label">DEPOIS</span>
-              <span class="project-placeholder">[adicionar render 3D]</span>
+              <span class="project-after-label">MODELO 3D</span>
+              <span class="project-placeholder">[adicionar imagem do modelo]</span>
             </div>
           </div>
           <div class="project-info">
-            <h3 class="project-name">Projeto 01 · Casarão</h3>
-            <span class="project-location">[BAIRRO] · OLINDA, PE</span>
+            <h3 class="project-name">Casarão · Modelo 3D</h3>
+            <span class="project-location">OLINDA · PERNAMBUCO</span>
           </div>
-          <p class="project-summary">[Uma frase sobre o que mudou neste espaço e para quem.]</p>
+          <p class="project-summary">Um olhar em 3D para a forma, a fachada e os detalhes de um casarão de Olinda.</p>
         </div>
 
         <div class="project-card">
           <div class="project-images">
             <div class="project-before">
-              <span class="project-before-label">ANTES</span>
+              <span class="project-before-label">REFERÊNCIA</span>
               <span class="project-placeholder">[adicionar foto]</span>
             </div>
             <div class="project-after">
-              <span class="project-after-label">DEPOIS</span>
-              <span class="project-placeholder">[adicionar render 3D]</span>
+              <span class="project-after-label">MODELO 3D</span>
+              <span class="project-placeholder">[adicionar imagem do modelo]</span>
             </div>
           </div>
           <div class="project-info">
-            <h3 class="project-name">Projeto 02 · Galpão</h3>
-            <span class="project-location">[BAIRRO] · OLINDA, PE</span>
+            <h3 class="project-name">Galpão · Modelo 3D</h3>
+            <span class="project-location">OLINDA · PERNAMBUCO</span>
           </div>
-          <p class="project-summary">[Uma frase sobre o que mudou neste espaço e para quem.]</p>
+          <p class="project-summary">Modelo digital para apresentar a estrutura e os volumes de um galpão de Olinda.</p>
         </div>
 
       </div>
@@ -191,32 +226,32 @@
   <!-- PROCESSO -->
   <div id="processo" class="section-light">
     <div class="section-content">
-      <h2 class="process-title">Como um lugar esquecido vira imagem.</h2>
+      <h2 class="process-title">Da primeira conversa à apresentação em 3D.</h2>
       <div class="process-grid">
         <div class="process-step">
           <div class="process-number">1</div>
-          <h3 class="process-step-title">Visita e registro</h3>
-          <p class="service-card-description">Fotos, medidas e uma conversa sobre o que o lugar pode voltar a ser.</p>
+          <h3 class="process-step-title">Conversa inicial</h3>
+          <p class="service-card-description">Entendemos o espaço, o público e o que precisa ser apresentado.</p>
         </div>
         <div class="process-step">
           <div class="process-number">2</div>
-          <h3 class="process-step-title">Estudo cultural</h3>
-          <p class="service-card-description">Nossa equipe de cultura pesquisa a história, a memória e as pessoas do lugar, para a revitalização respeitar quem ele é.</p>
+          <h3 class="process-step-title">Registro e pesquisa</h3>
+          <p class="service-card-description">Coletamos referências e dados do local. Quando faz sentido, aprofundamos sua história.</p>
         </div>
         <div class="process-step">
           <div class="process-number">3</div>
-          <h3 class="process-step-title">Modelagem 3D</h3>
-          <p class="service-card-description">O espaço atual ganha forma no Blender, fiel ao que existe hoje.</p>
+          <h3 class="process-step-title">Criação em 3D</h3>
+          <p class="service-card-description">Geramos o modelo digital com suas formas, proporções e elementos principais.</p>
         </div>
         <div class="process-step">
           <div class="process-number">4</div>
-          <h3 class="process-step-title">Revitalização em cena</h3>
-          <p class="service-card-description">Testamos materiais, luz, vegetação e usos até a proposta ficar certa.</p>
+          <h3 class="process-step-title">Revisão dos detalhes</h3>
+          <p class="service-card-description">Ajustamos características visuais para representar melhor o espaço.</p>
         </div>
         <div class="process-step">
           <div class="process-number">5</div>
-          <h3 class="process-step-title">Entrega visual</h3>
-          <p class="service-card-description">Renders e vídeos prontos para apresentar, aprovar e tirar do papel.</p>
+          <h3 class="process-step-title">Apresentação digital</h3>
+          <p class="service-card-description">Preparamos imagens dos modelos para compartilhar o projeto com seu público.</p>
         </div>
       </div>
     </div>
@@ -225,10 +260,10 @@
   <!-- SOBRE -->
   <div id="sobre" class="section-dark">
     <div class="about-layout">
-      <h2 class="about-title">Olinda tem muita história parada. A gente ajuda a imaginar o que vem depois.</h2>
+      <h2 class="about-title">Nascemos em Olinda. Criamos para qualquer lugar do Brasil.</h2>
       <div class="about-copy">
-        <p class="about-paragraph">A Marco3D é uma startup de Olinda, Pernambuco, criada para usar o 3D como ferramenta de transformação: devolver sentido a casarões, galpões, praças e terrenos que ficaram sem uso.</p>
-        <p class="about-paragraph">Antes de qualquer obra, a ideia precisa ser vista — e o lugar precisa ser entendido. Por isso, nossa equipe de cultura estuda a história e a memória de cada local antes de qualquer proposta.</p>
+        <p class="about-paragraph">A Marco3D nasceu em Olinda, Pernambuco. O olhar para a arquitetura e a vida dos espaços faz parte da nossa origem, mas nosso trabalho vai além do patrimônio histórico: também criamos modelos 3D para espaços comerciais, empresas e empreendimentos.</p>
+        <p class="about-paragraph">Unimos pesquisa de campo e criação digital conforme a necessidade de cada cliente. Quando um projeto envolve cultura e memória, a história do lugar ganha destaque; em outros contextos, o foco pode estar na estrutura, no ambiente e na forma de apresentá-lo.</p>
       </div>
     </div>
   </div>
@@ -237,8 +272,8 @@
   <div id="contato" class="contact-section">
     <div class="contact-layout">
       <div class="contact-copy">
-        <h2 class="contact-title">Tem um lugar abandonado em mente?</h2>
-        <p class="contact-intro">Conta pra gente. Vamos transformar a ideia em imagem.</p>
+        <h2 class="contact-title">Tem um espaço que merece ganhar forma em 3D?</h2>
+        <p class="contact-intro">Pode ser um lugar cultural, uma loja ou uma estrutura empresarial. Conta pra gente o que você quer mostrar.</p>
       </div>
       <div class="contact-details">
         <div>E-mail: [contato@marco3d.com]</div>
@@ -252,7 +287,7 @@
   <div class="section-dark">
     <div class="footer-layout">
       <span class="footer-brand">Marco3D</span>
-      <span>Olinda, Pernambuco — Brasil</span>
+      <span>Criada em Olinda, PE · Projetos em todo o Brasil</span>
       <span>© 2026 Marco3D</span>
     </div>
   </div>

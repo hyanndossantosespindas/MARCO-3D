@@ -1,4 +1,4 @@
-// Alternância do viewport Antes / Depois.
+// Alternância do viewport Referência / Modelo 3D.
 // O estado visual fica no CSS, sem estilos embutidos no JavaScript.
 (function () {
   var vAntes = document.getElementById('vista-antes');
@@ -17,7 +17,7 @@
   bDepois.addEventListener('click', function () { mostrar(false); });
 })();
 
-// Fallback preparado para futuras imagens do portfólio.
+// Fallback preparado para futuras imagens de referência e de modelos 3D.
 // Não afeta os placeholders atuais, que permanecem no HTML.
 (function () {
   document.querySelectorAll('.project-images img').forEach(function (img) {
@@ -26,7 +26,7 @@
       span.className = 'project-placeholder';
       span.textContent = img.closest('.project-before')
         ? '[adicionar foto]'
-        : '[adicionar render 3D]';
+        : '[adicionar imagem do modelo]';
       img.replaceWith(span);
     }
     img.addEventListener('error', usarPlaceholder, { once: true });

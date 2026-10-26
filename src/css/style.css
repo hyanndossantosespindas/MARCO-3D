@@ -14,6 +14,8 @@
   --color-depois-a: #1E3029;
   --color-depois-b: #223830;
   --color-antes-legenda: #F0906F;
+  --color-fachada: #C86F50;
+  --color-azulejo: #497F80;
   --font-titulos: 'Bricolage Grotesque', sans-serif;
   --font-texto: 'DM Sans', system-ui, sans-serif;
   --font-mono: 'JetBrains Mono', monospace;
@@ -588,4 +590,31 @@ button{transition:background .15s,color .15s}
 #btn-depois[aria-pressed="false"] {
   background: transparent;
   color: var(--color-texto-suave);
+}
+
+/* Identidade da Marco3D: referências discretas às fachadas e aos azulejos
+   do casario de Olinda. Sem fotografias de locais inventados ou clichês regionais. */
+.preview-card {
+  position: relative;
+  overflow: hidden;
+}
+.preview-card::before {
+  content: "";
+  position: absolute;
+  inset: 0 0 auto;
+  height: 4px;
+  background: repeating-linear-gradient(90deg, var(--color-azulejo) 0 16px, var(--color-claro) 16px 18px, var(--color-fachada) 18px 34px, var(--color-claro) 34px 36px);
+  opacity: .9;
+}
+.reference-artwork { filter: saturate(.65) brightness(.83) sepia(.08); }
+.model-artwork { filter: none; }
+#servicos { background-image: linear-gradient(45deg, rgba(73,127,128,.025) 25%, transparent 25%), linear-gradient(-45deg, rgba(73,127,128,.025) 25%, transparent 25%); background-size: 48px 48px; }
+#servicos .service-card { flex: 1 1 395px; border-top: 3px solid var(--color-azulejo); }
+#servicos .service-card:nth-child(4n+2),
+#servicos .service-card:nth-child(4n+3) { border-top-color: var(--color-fachada); }
+.portfolio-description { margin: 0; max-width: 790px; color: var(--color-texto-suave); font-size: 18px; }
+@media (max-width: 580px) {
+  .hero-layout { padding-top: 36px; }
+  .preview-caption { font-size: 10px; }
+  #servicos .service-card { flex-basis: 100%; }
 }
